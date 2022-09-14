@@ -1,0 +1,10 @@
+{
+    "name": "groupalizer",
+    "description": "Extension for organize groups and tabs",
+    "version": "0.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "service_worker.js"
+    },
+    "permissions": ["storage", "tabs", "tabGroups"]
+  }
